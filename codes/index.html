@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux Counter App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/5.0.0-alpha.0/redux.js" integrity="sha512-rrwKW9q7MLeNxl6R7SHb2DjciTUBoCFCdbTwMQWdfJ1uqT22lKR5YWdbKoRuBLFGk3XoEZ7jRwWjiCGLopwW1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="root">
+      <header class="header count">0</header>
+              <div class="values">
+                <div class="steps-value">
+                <p class="p">Steps</p>
+                <div class="step-btns">
+                  <button class="value button-5">5</button>
+                  <button class="value button-10">10</button>
+                  <button class="value button-15">15</button>
+                </div>
+              </div>
+              <div class="max-value">
+                <p class="p">Max Value</p>
+                <div class="step-btns">
+                  <button class="maxValue button-max-15">15</button>
+                  <button class="maxValue button-max-100">100</button>
+                  <button class="maxValue button-max-200">200</button>
+                </div>
+              </div>
+            </div>
+              <div class="inc-dec-btns">
+                <button class="increment">Increment</button>
+                <button class="decrement">decrement</button>
+                <button class="reset">Reset</button>
+              </div>
+    </main>
+    <script src="./index.js" ></script>
+  </body>
+</html>
